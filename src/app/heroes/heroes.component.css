@@ -50,24 +50,28 @@
   border-radius: 4px 0 0 4px;
 }
 
-button {
+.button__add {
   background-color: #eee;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
-  cursor: hand;
   font-family: Arial;
 }
 
-button:hover {
+.button__add:hover {
   background-color: #cfd8dc;
 }
 
-button.delete {
+.button__delete {
   position: relative;
   left: 194px;
   top: -32px;
   background-color: gray !important;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial;
   color: white;
 }

@@ -11,6 +11,7 @@ export class MessageService {
   }
 
   clear() {
-    this.messages;
+    // Der clear sollte auch was machen :D
+    this.messages = [];
   }
 }
